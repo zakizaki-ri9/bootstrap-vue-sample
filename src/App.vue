@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld/>
+    <hello-world/>
+    <boot-strap-sample/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import BootStrapSample from './components/BootStrapSample'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    BootStrapSample
   }
 }
 </script>

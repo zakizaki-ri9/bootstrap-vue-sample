@@ -1,4 +1,4 @@
-# bootstrap-vue
+# bootstrap-vue-sample
 
 > A Vue.js project
 
