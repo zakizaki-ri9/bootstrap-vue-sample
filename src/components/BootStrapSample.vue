@@ -1,11 +1,16 @@
-<template>
-  <div>
-    <b-btn v-b-modal.modal1>Launch demo modal</b-btn>
-    <!-- Modal Component -->
-    <b-modal id="modal1" title="Bootstrap-Vue">
-      <p class="my-4">Hello from modal!</p>
-    </b-modal>
-  </div>
+<template lang="pug">
+  div
+    hr
+    b-btn(
+      v-b-modal.modal1
+    )
+      | Launch demo modal
+    //-  Modal Component
+    b-modal#modal1(
+      title="Bootstrap-Vue"
+    )
+      p.my-4 Hello from modal!
+    hr
 </template>
 
 <script>
@@ -15,5 +20,4 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
+<style scoped></style>

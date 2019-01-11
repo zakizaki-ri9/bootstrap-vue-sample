@@ -1,19 +1,16 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello-world/>
-    <boot-strap-sample/>
-  </div>
+<template lang="pug">
+  div#app
+    hr
+    boot-strap-sample
+    hr
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
 import BootStrapSample from './components/BootStrapSample'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     BootStrapSample
   }
 }
